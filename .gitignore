@@ -1,0 +1,17 @@
+# ملفات بايثون المؤقتة
+__pycache__/
+*.pyc
+*.pyo
+
+# ملفات PyInstaller (build/dist)
+build/
+dist/
+*.log
+
+# أدوات التحميل المحلية
+aria2c.exe
+aria2_temp.zip
+
+# ملفات النظام
+Thumbs.db
+Desktop.ini
