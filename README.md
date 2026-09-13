@@ -11,6 +11,14 @@
 - تصميم داكن/فاتح متناسق وواضح.
 - إمكانية التغليف إلى ملف تنفيذي واحد `ElectricalCalculator.exe` بدون الحاجة لتثبيت Python.
 
+## نسخة الويب (تعمل في المتصفح)
+
+استخدم الحاسبة مباشرة من متصفحك بدون تثبيت أي شيء:
+
+**🌐 https://rabah1035.github.io/ElectricalCalculator/**
+
+نسخة الويب (مجلد `docs/`) مطابقة تماماً لمحرك الحساب في النسخة المكتبية، بكل الوحدات التسع والثلاث لغات.
+
 ## الوحدات الحسابية
 
 1. **قانون أوم** — حساب الجهد / التيار / المقاومة.
@@ -47,6 +55,7 @@ pyinstaller --onefile --windowed --noconfirm --name "ElectricalCalculator" elect
 electrical_calculator.py    # الكود الكامل للتطبيق (واجهة + محرك الحساب + الترجمات)
 ElectricalCalculator.spec   # ملف إعداد PyInstaller (يتجدد عند كل بناء)
 requirements.txt            # المتطلبات
+docs/                       # نسخة الويب (HTML/CSS/JS) المستضافة على GitHub Pages
 ```
 
 ## متطلبات النظام
